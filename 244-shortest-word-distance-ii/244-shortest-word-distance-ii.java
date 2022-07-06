@@ -13,8 +13,6 @@ class WordDistance {
     
     public int shortest(String word1, String word2) {
         int min = Integer.MAX_VALUE;
-        Collections.sort(map.get(word1));
-        Collections.sort(map.get(word2));
         int l1 = 0;
         int l2 = 0;
         while(l1 < map.get(word1).size() && l2 < map.get(word2).size()){
