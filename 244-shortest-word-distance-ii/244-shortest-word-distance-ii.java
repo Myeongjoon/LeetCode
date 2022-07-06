@@ -1,8 +1,6 @@
 class WordDistance {
-    String[] wordsDict;
     HashMap<String, List<Integer>> map = new HashMap<String, List<Integer>>();
     public WordDistance(String[] wordsDict) {
-        this.wordsDict = wordsDict;
         for(int i=0;i<wordsDict.length;i++){
             if(map.containsKey(wordsDict[i])){
                 map.get(wordsDict[i]).add(i);
@@ -15,9 +13,16 @@ class WordDistance {
     
     public int shortest(String word1, String word2) {
         int min = Integer.MAX_VALUE;
-        for(int i=0;i<map.get(word1).size();i++){
-            for(int j=0;j<map.get(word2).size();j++){
-                min = Math.min(min, Math.abs(map.get(word1).get(i) - map.get(word2).get(j)));
+        Collections.sort(map.get(word1));
+        Collections.sort(map.get(word2));
+        int l1 = 0;
+        int l2 = 0;
+        while(l1 < map.get(word1).size() && l2 < map.get(word2).size()){
+            min = Math.min(min, Math.abs(map.get(word1).get(l1) - map.get(word2).get(l2)));
+            if(map.get(word1).get(l1)>map.get(word2).get(l2)){
+                l2++;
+            }else{
+                l1++;
             }
         }
         return min;
