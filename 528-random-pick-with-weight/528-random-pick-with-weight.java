@@ -1,20 +1,17 @@
 class Solution {
     int[] w;
     int[] w1;
-    int[] w2;
     int sum = 0;
 
     public Solution(int[] w) {
         int w1 = 0;
         int w2 = 0;
         this.w1 = new int[w.length];
-        this.w2 = new int[w.length];
         this.w = w;
         for(int i=0;i<w.length;i++){
             this.sum = this.sum + w[i];
             this.w1[i] = w2;
             w2 = w2 + w[i];
-            this.w2[i] = w2;
         }
     }
 
@@ -22,12 +19,11 @@ class Solution {
         double rand = Math.random();
         for(int i=0;i<w.length;i++){
             double left = (double)this.w1[i]/this.sum;
-            double right = (double)this.w2[i]/this.sum;
-            if(left<= rand && rand <= right){
-                return i;
+            if(left > rand){
+                return i-1;
             }
         }
-        return 0;
+        return w.length-1;
     }
 
     public static void main(String[] args) {
