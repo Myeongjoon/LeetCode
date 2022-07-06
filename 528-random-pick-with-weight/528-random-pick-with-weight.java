@@ -1,29 +1,33 @@
 class Solution {
     int[] w;
-    int[] w1;
+    int[] prefixSum;
     int sum = 0;
 
     public Solution(int[] w) {
-        int w1 = 0;
-        int w2 = 0;
-        this.w1 = new int[w.length];
+        int prefixSum = 0;
+        this.prefixSum = new int[w.length];
         this.w = w;
         for(int i=0;i<w.length;i++){
             this.sum = this.sum + w[i];
-            this.w1[i] = w2;
-            w2 = w2 + w[i];
+            prefixSum = prefixSum + w[i];
+            this.prefixSum[i] = prefixSum;
         }
     }
 
     public int pickIndex() {
-        double rand = Math.random();
-        for(int i=0;i<w.length;i++){
-            double left = (double)this.w1[i]/this.sum;
-            if(left > rand){
-                return i-1;
+        double rand = Math.random() * this.sum;
+        int low  = 0;
+        int high = this.w.length;
+        while(low<high){
+            // better to avoid the overflow
+            int mid = low + (high - low) / 2;
+            if(prefixSum[mid] < rand){
+                low = mid + 1;
+            }else{
+                high = mid;
             }
         }
-        return w.length-1;
+        return low;
     }
 
     public static void main(String[] args) {
