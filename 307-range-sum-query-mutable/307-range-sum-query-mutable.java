@@ -6,14 +6,15 @@ class NumArray {
         if (nums.length > 0) {
             n = nums.length;
             segment = new int[n * 2];
-            buildTree(nums);
+            for (int i = n, j = 0;  i < 2 * n; i++,  j++)
+            {   
+                segment[i] = nums[j];
+            }
+            for (int i = n - 1; i > 0; --i)
+            {
+                segment[i] = segment[i * 2] + segment[i * 2 + 1];
+            }
         }
-    }
-    private void buildTree(int[] nums) {
-        for (int i = n, j = 0;  i < 2 * n; i++,  j++)
-            segment[i] = nums[j];
-        for (int i = n - 1; i > 0; --i)
-            segment[i] = segment[i * 2] + segment[i * 2 + 1];
     }
     
     void update(int pos, int val) {
