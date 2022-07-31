@@ -27,16 +27,13 @@ class NumArray {
             } else {
                 left = pos - 1;
             }
-            // parent is updated after child is updated
             tree[pos / 2] = tree[left] + tree[right];
             pos /= 2;
         }
     }
     
     public int sumRange(int l, int r) {
-        // get leaf with value 'l'
         l += n;
-        // get leaf with value 'r'
         r += n;
         int sum = 0;
         while (l <= r) {
@@ -54,10 +51,3 @@ class NumArray {
         return sum;
     }
 }
-
-/**
- * Your NumArray object will be instantiated and called as such:
- * NumArray obj = new NumArray(nums);
- * obj.update(index,val);
- * int param_2 = obj.sumRange(left,right);
- */
