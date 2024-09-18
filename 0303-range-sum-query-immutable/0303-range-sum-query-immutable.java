@@ -1,27 +1,28 @@
 class NumArray {
+
     public static int[] tree;
     public static int[] nums;
 
     public NumArray(int[] nums) {
         int count = nums.length;
-        tree = new int[count + 1]; // 1-based index, tree size is count + 1
+        tree = new int[count + 1]; // 1-based index, so tree size is count + 1
         NumArray.nums = nums;
         
-        // Initialize tree with values
+        // Initialize the tree by updating the tree with nums values
         for (int i = 0; i < count; i++) {
-            update(i + 1, nums[i]); // 1-based index
+            makeNode(i + 1, nums[i]); // 1-based index for tree, 0-based for nums
         }
     }
 
-    // Update function to add value at index i
-    public void update(int i, int delta) {
-        while (i < tree.length) { // tree.length - 1 is the last valid index
-            tree[i] += delta;
+    // Updates the Fenwick Tree with the value `target` at index `i`
+    public void makeNode(int i, int target) {
+        while (i < tree.length) {
+            tree[i] += target;
             i += i & -i;  // Move to the next index
         }
     }
 
-    // Get prefix sum up to index i (1-based index)
+    // Get the prefix sum up to index `i`
     public int sum(int i) {
         int response = 0;
         while (i > 0) {
@@ -31,9 +32,9 @@ class NumArray {
         return response;
     }
     
-    // Get sum of range [left, right]
+    // Get the sum of the range [left, right] (0-based index)
     public int sumRange(int left, int right) {
-        return sum(right + 1) - sum(left); // left and right are 0-based, so adjust
+        return sum(right + 1) - sum(left); // sum(left - 1) for prefix sum
     }
 }
 
