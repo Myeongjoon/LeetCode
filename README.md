@@ -10,6 +10,7 @@
 |  |
 | ------- |
 | [0179-largest-number](https://github.com/Myeongjoon/LeetCode/tree/master/0179-largest-number) |
+| [0303-range-sum-query-immutable](https://github.com/Myeongjoon/LeetCode/tree/master/0303-range-sum-query-immutable) |
 ## String
 |  |
 | ------- |
@@ -22,4 +23,12 @@
 |  |
 | ------- |
 | [0179-largest-number](https://github.com/Myeongjoon/LeetCode/tree/master/0179-largest-number) |
+## Design
+|  |
+| ------- |
+| [0303-range-sum-query-immutable](https://github.com/Myeongjoon/LeetCode/tree/master/0303-range-sum-query-immutable) |
+## Prefix Sum
+|  |
+| ------- |
+| [0303-range-sum-query-immutable](https://github.com/Myeongjoon/LeetCode/tree/master/0303-range-sum-query-immutable) |
 <!---LeetCode Topics End-->
