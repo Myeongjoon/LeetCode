@@ -1,18 +1,13 @@
 class NumArray {
     static int[] trees;
     static int size;
-    
     public NumArray(int[] nums) {
-        size = nums.length;  // 클래스 멤버 변수 size를 사용
-        trees = new int[size * 2];  // 트리 배열 크기를 2 * size로 설정
-        
-        // 리프 노드 설정
-        for (int i = 0; i < size; i++) {
+        size = nums.length;
+        trees = new int[size*3];
+        for(int i=0;i<size;i++){
             trees[i + size] = nums[i];
         }
-        
-        // 내부 노드 계산
-        for (int i = size - 1; i > 0; i--) {
+        for(int i= size - 1;i>0;i--){
             trees[i] = trees[i * 2] + trees[i * 2 + 1];
         }
     }
@@ -20,9 +15,9 @@ class NumArray {
     public void update(int index, int val) {
         index += size;
         trees[index] = val;
-        while (index > 1) {
+        while(index > 1){
             index /= 2;
-            trees[index] = trees[2 * index] + trees[2 * index + 1];
+            trees[index] = trees[2*index] + trees[2*index + 1];
         }
     }
     
@@ -30,13 +25,13 @@ class NumArray {
         left += size;
         right += size + 1;  // [left, right] 구간을 포함하도록 수정
         int response = 0;
-        while (left < right) {
-            if (left % 2 == 1) {
+        while(left < right){
+            if(left % 2 == 1){
                 response += trees[left];
-                left++;
+                left ++;
             }
-            if (right % 2 == 1) {
-                right--;
+            if(right % 2 == 1){
+                right --;
                 response += trees[right];
             }
             left /= 2;
