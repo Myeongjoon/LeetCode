@@ -77,4 +77,12 @@
 |  |
 | ------- |
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/Myeongjoon/LeetCode/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
+## Depth-First Search
+|  |
+| ------- |
+| [0386-lexicographical-numbers](https://github.com/Myeongjoon/LeetCode/tree/master/0386-lexicographical-numbers) |
+## Trie
+|  |
+| ------- |
+| [0386-lexicographical-numbers](https://github.com/Myeongjoon/LeetCode/tree/master/0386-lexicographical-numbers) |
 <!---LeetCode Topics End-->
