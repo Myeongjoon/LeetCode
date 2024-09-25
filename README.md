@@ -13,6 +13,7 @@
 | [0303-range-sum-query-immutable](https://github.com/Myeongjoon/LeetCode/tree/master/0303-range-sum-query-immutable) |
 | [0307-range-sum-query-mutable](https://github.com/Myeongjoon/LeetCode/tree/master/0307-range-sum-query-mutable) |
 | [2755-extra-characters-in-a-string](https://github.com/Myeongjoon/LeetCode/tree/master/2755-extra-characters-in-a-string) |
+| [3329-find-the-length-of-the-longest-common-prefix](https://github.com/Myeongjoon/LeetCode/tree/master/3329-find-the-length-of-the-longest-common-prefix) |
 ## String
 |  |
 | ------- |
@@ -21,6 +22,7 @@
 | [0214-shortest-palindrome](https://github.com/Myeongjoon/LeetCode/tree/master/0214-shortest-palindrome) |
 | [0241-different-ways-to-add-parentheses](https://github.com/Myeongjoon/LeetCode/tree/master/0241-different-ways-to-add-parentheses) |
 | [2755-extra-characters-in-a-string](https://github.com/Myeongjoon/LeetCode/tree/master/2755-extra-characters-in-a-string) |
+| [3329-find-the-length-of-the-longest-common-prefix](https://github.com/Myeongjoon/LeetCode/tree/master/3329-find-the-length-of-the-longest-common-prefix) |
 ## Greedy
 |  |
 | ------- |
@@ -90,8 +92,10 @@
 | [0386-lexicographical-numbers](https://github.com/Myeongjoon/LeetCode/tree/master/0386-lexicographical-numbers) |
 | [0440-k-th-smallest-in-lexicographical-order](https://github.com/Myeongjoon/LeetCode/tree/master/0440-k-th-smallest-in-lexicographical-order) |
 | [2755-extra-characters-in-a-string](https://github.com/Myeongjoon/LeetCode/tree/master/2755-extra-characters-in-a-string) |
+| [3329-find-the-length-of-the-longest-common-prefix](https://github.com/Myeongjoon/LeetCode/tree/master/3329-find-the-length-of-the-longest-common-prefix) |
 ## Hash Table
 |  |
 | ------- |
 | [2755-extra-characters-in-a-string](https://github.com/Myeongjoon/LeetCode/tree/master/2755-extra-characters-in-a-string) |
+| [3329-find-the-length-of-the-longest-common-prefix](https://github.com/Myeongjoon/LeetCode/tree/master/3329-find-the-length-of-the-longest-common-prefix) |
 <!---LeetCode Topics End-->
