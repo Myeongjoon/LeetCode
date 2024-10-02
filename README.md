@@ -12,6 +12,7 @@
 | [0179-largest-number](https://github.com/Myeongjoon/LeetCode/tree/master/0179-largest-number) |
 | [0303-range-sum-query-immutable](https://github.com/Myeongjoon/LeetCode/tree/master/0303-range-sum-query-immutable) |
 | [0307-range-sum-query-mutable](https://github.com/Myeongjoon/LeetCode/tree/master/0307-range-sum-query-mutable) |
+| [1256-rank-transform-of-an-array](https://github.com/Myeongjoon/LeetCode/tree/master/1256-rank-transform-of-an-array) |
 | [1620-check-if-array-pairs-are-divisible-by-k](https://github.com/Myeongjoon/LeetCode/tree/master/1620-check-if-array-pairs-are-divisible-by-k) |
 | [2494-sum-of-prefix-scores-of-strings](https://github.com/Myeongjoon/LeetCode/tree/master/2494-sum-of-prefix-scores-of-strings) |
 | [2755-extra-characters-in-a-string](https://github.com/Myeongjoon/LeetCode/tree/master/2755-extra-characters-in-a-string) |
@@ -34,6 +35,7 @@
 |  |
 | ------- |
 | [0179-largest-number](https://github.com/Myeongjoon/LeetCode/tree/master/0179-largest-number) |
+| [1256-rank-transform-of-an-array](https://github.com/Myeongjoon/LeetCode/tree/master/1256-rank-transform-of-an-array) |
 ## Design
 |  |
 | ------- |
@@ -100,6 +102,7 @@
 ## Hash Table
 |  |
 | ------- |
+| [1256-rank-transform-of-an-array](https://github.com/Myeongjoon/LeetCode/tree/master/1256-rank-transform-of-an-array) |
 | [1620-check-if-array-pairs-are-divisible-by-k](https://github.com/Myeongjoon/LeetCode/tree/master/1620-check-if-array-pairs-are-divisible-by-k) |
 | [2755-extra-characters-in-a-string](https://github.com/Myeongjoon/LeetCode/tree/master/2755-extra-characters-in-a-string) |
 | [3329-find-the-length-of-the-longest-common-prefix](https://github.com/Myeongjoon/LeetCode/tree/master/3329-find-the-length-of-the-longest-common-prefix) |
