@@ -15,6 +15,7 @@
 | [1256-rank-transform-of-an-array](https://github.com/Myeongjoon/LeetCode/tree/master/1256-rank-transform-of-an-array) |
 | [1620-check-if-array-pairs-are-divisible-by-k](https://github.com/Myeongjoon/LeetCode/tree/master/1620-check-if-array-pairs-are-divisible-by-k) |
 | [2494-sum-of-prefix-scores-of-strings](https://github.com/Myeongjoon/LeetCode/tree/master/2494-sum-of-prefix-scores-of-strings) |
+| [2581-divide-players-into-teams-of-equal-skill](https://github.com/Myeongjoon/LeetCode/tree/master/2581-divide-players-into-teams-of-equal-skill) |
 | [2755-extra-characters-in-a-string](https://github.com/Myeongjoon/LeetCode/tree/master/2755-extra-characters-in-a-string) |
 | [3329-find-the-length-of-the-longest-common-prefix](https://github.com/Myeongjoon/LeetCode/tree/master/3329-find-the-length-of-the-longest-common-prefix) |
 ## String
@@ -36,6 +37,7 @@
 | ------- |
 | [0179-largest-number](https://github.com/Myeongjoon/LeetCode/tree/master/0179-largest-number) |
 | [1256-rank-transform-of-an-array](https://github.com/Myeongjoon/LeetCode/tree/master/1256-rank-transform-of-an-array) |
+| [2581-divide-players-into-teams-of-equal-skill](https://github.com/Myeongjoon/LeetCode/tree/master/2581-divide-players-into-teams-of-equal-skill) |
 ## Design
 |  |
 | ------- |
@@ -87,6 +89,7 @@
 |  |
 | ------- |
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/Myeongjoon/LeetCode/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
+| [2581-divide-players-into-teams-of-equal-skill](https://github.com/Myeongjoon/LeetCode/tree/master/2581-divide-players-into-teams-of-equal-skill) |
 ## Depth-First Search
 |  |
 | ------- |
@@ -104,6 +107,7 @@
 | ------- |
 | [1256-rank-transform-of-an-array](https://github.com/Myeongjoon/LeetCode/tree/master/1256-rank-transform-of-an-array) |
 | [1620-check-if-array-pairs-are-divisible-by-k](https://github.com/Myeongjoon/LeetCode/tree/master/1620-check-if-array-pairs-are-divisible-by-k) |
+| [2581-divide-players-into-teams-of-equal-skill](https://github.com/Myeongjoon/LeetCode/tree/master/2581-divide-players-into-teams-of-equal-skill) |
 | [2755-extra-characters-in-a-string](https://github.com/Myeongjoon/LeetCode/tree/master/2755-extra-characters-in-a-string) |
 | [3329-find-the-length-of-the-longest-common-prefix](https://github.com/Myeongjoon/LeetCode/tree/master/3329-find-the-length-of-the-longest-common-prefix) |
 ## Counting
