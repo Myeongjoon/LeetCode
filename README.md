@@ -98,6 +98,7 @@
 ## Depth-First Search
 |  |
 | ------- |
+| [0207-course-schedule](https://github.com/Myeongjoon/LeetCode/tree/master/0207-course-schedule) |
 | [0386-lexicographical-numbers](https://github.com/Myeongjoon/LeetCode/tree/master/0386-lexicographical-numbers) |
 ## Trie
 |  |
@@ -125,4 +126,16 @@
 |  |
 | ------- |
 | [0567-permutation-in-string](https://github.com/Myeongjoon/LeetCode/tree/master/0567-permutation-in-string) |
+## Breadth-First Search
+|  |
+| ------- |
+| [0207-course-schedule](https://github.com/Myeongjoon/LeetCode/tree/master/0207-course-schedule) |
+## Graph
+|  |
+| ------- |
+| [0207-course-schedule](https://github.com/Myeongjoon/LeetCode/tree/master/0207-course-schedule) |
+## Topological Sort
+|  |
+| ------- |
+| [0207-course-schedule](https://github.com/Myeongjoon/LeetCode/tree/master/0207-course-schedule) |
 <!---LeetCode Topics End-->
