@@ -17,6 +17,7 @@
 | [1923-sentence-similarity-iii](https://github.com/Myeongjoon/LeetCode/tree/master/1923-sentence-similarity-iii) |
 | [2494-sum-of-prefix-scores-of-strings](https://github.com/Myeongjoon/LeetCode/tree/master/2494-sum-of-prefix-scores-of-strings) |
 | [2581-divide-players-into-teams-of-equal-skill](https://github.com/Myeongjoon/LeetCode/tree/master/2581-divide-players-into-teams-of-equal-skill) |
+| [2616-maximal-score-after-applying-k-operations](https://github.com/Myeongjoon/LeetCode/tree/master/2616-maximal-score-after-applying-k-operations) |
 | [2755-extra-characters-in-a-string](https://github.com/Myeongjoon/LeetCode/tree/master/2755-extra-characters-in-a-string) |
 | [3329-find-the-length-of-the-longest-common-prefix](https://github.com/Myeongjoon/LeetCode/tree/master/3329-find-the-length-of-the-longest-common-prefix) |
 ## String
@@ -35,6 +36,7 @@
 |  |
 | ------- |
 | [0179-largest-number](https://github.com/Myeongjoon/LeetCode/tree/master/0179-largest-number) |
+| [2616-maximal-score-after-applying-k-operations](https://github.com/Myeongjoon/LeetCode/tree/master/2616-maximal-score-after-applying-k-operations) |
 ## Sorting
 |  |
 | ------- |
@@ -138,4 +140,8 @@
 |  |
 | ------- |
 | [0207-course-schedule](https://github.com/Myeongjoon/LeetCode/tree/master/0207-course-schedule) |
+## Heap (Priority Queue)
+|  |
+| ------- |
+| [2616-maximal-score-after-applying-k-operations](https://github.com/Myeongjoon/LeetCode/tree/master/2616-maximal-score-after-applying-k-operations) |
 <!---LeetCode Topics End-->
